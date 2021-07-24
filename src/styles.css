@@ -1,0 +1,79 @@
+.setup {
+    display: flex;
+    flex-direction: column;
+}
+
+.game {
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: 5px 10px #888888;
+}
+
+button {
+    margin: 10px auto;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    border-radius: 5%;
+    border: none;
+}
+
+input {
+    height: 30px;
+}
+
+.exit-btn {
+    background-color: rgba(255, 0, 0, 0.658);
+    width: 30%;
+}
+
+.setup .new-btn {
+    color: #000;
+}
+
+.setup .join-btn {
+    background-color: #ff7800;
+}
+
+.setup .start-btn {
+    background-color: #14a800;
+}
+
+.choice {
+    margin: 0px 15px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 20px 20px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.choice:hover {
+    border: 3px solid #ff7800;
+    transition: border 2s;
+}
+
+.message {
+    font-size: medium;
+    color: #ff7800;
+}
+
+.players {
+    position: relative;
+    padding: 15px 20px;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.player {
+    position: absolute;
+}
+
+.player:first-child {
+    left: -30px;
+}
+
+.player:last-of-type {
+    right: -30px;
+}
